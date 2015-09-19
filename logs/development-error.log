@@ -1,0 +1,445 @@
+2015/09/18 18:10:19 [error] 3882#0: *2 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:19: module 'config.application' not found:
+	no field package.preload['config.application']
+	no file './config/application.so'
+	no file './lib/config/application.so'
+	no file '/Users/zhoujing/.luarocks/lib/lua/5.1/config/application.so'
+	no file '/usr/local/luarocks-2.2.2/lib/lua/5.1/config/application.so'
+	no file './config/application.so'
+	no file '/usr/local/lib/lua/5.1/config/application.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/config/application.so'
+	no file '/lib/config/application.so'
+	no file '/usr/local/nginx_x/lualib/config/application.so'
+	no file './config/application.so'
+	no file '/usr/local/lib/lua/5.1/config/application.so'
+	no file '/usr/local/nginx_x/luajit/lib/lua/5.1/config/application.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file './config.so'
+	no file './lib/config.so'
+	no file '/Users/zhoujing/.luarocks/lib/lua/5.1/config.so'
+	no file '/usr/local/luarocks-2.2.2/lib/lua/5.1/config.so'
+	no file './config.so'
+	no file '/usr/local/lib/lua/5.1/config.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/config.so'
+	no file '/lib/config.so'
+	no file '/usr/local/nginx_x/lualib/config.so'
+	no file './config.so'
+	no file '/usr/local/lib/lua/5.1/config.so'
+	no file '/usr/local/nginx_x/luajit/lib/lua/5.1/config.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:19: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/18 18:10:19 [error] 3882#0: *4 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:19: module 'config.application' not found:
+	no field package.preload['config.application']
+	no file './config/application.so'
+	no file './lib/config/application.so'
+	no file '/Users/zhoujing/.luarocks/lib/lua/5.1/config/application.so'
+	no file '/usr/local/luarocks-2.2.2/lib/lua/5.1/config/application.so'
+	no file './config/application.so'
+	no file '/usr/local/lib/lua/5.1/config/application.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/config/application.so'
+	no file '/lib/config/application.so'
+	no file '/usr/local/nginx_x/lualib/config/application.so'
+	no file './config/application.so'
+	no file '/usr/local/lib/lua/5.1/config/application.so'
+	no file '/usr/local/nginx_x/luajit/lib/lua/5.1/config/application.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file './config.so'
+	no file './lib/config.so'
+	no file '/Users/zhoujing/.luarocks/lib/lua/5.1/config.so'
+	no file '/usr/local/luarocks-2.2.2/lib/lua/5.1/config.so'
+	no file './config.so'
+	no file '/usr/local/lib/lua/5.1/config.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/config.so'
+	no file '/lib/config.so'
+	no file '/usr/local/nginx_x/lualib/config.so'
+	no file './config.so'
+	no file '/usr/local/lib/lua/5.1/config.so'
+	no file '/usr/local/nginx_x/luajit/lib/lua/5.1/config.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:19: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/18 18:11:12 [error] 3882#0: *5 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:20: module 'vanilla.v.application' not found:
+	no field package.preload['vanilla.v.application']
+	no file './vanilla/v/application.lua'
+	no file './lib/vanilla/v/application.lua'
+	no file './vanilla/v/application.so'
+	no file './lib/vanilla/v/application.so'
+	no file '/Users/zhoujing/.luarocks/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/luarocks-2.2.2/lib/lua/5.1/vanilla/v/application.so'
+	no file './vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/vanilla/v/application.so'
+	no file '/lib/vanilla/v/application.so'
+	no file '/usr/local/nginx_x/lualib/vanilla/v/application.so'
+	no file './vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/nginx_x/luajit/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file './vanilla.so'
+	no file './lib/vanilla.so'
+	no file '/Users/zhoujing/.luarocks/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/luarocks-2.2.2/lib/lua/5.1/vanilla.so'
+	no file './vanilla.so'
+	no file '/usr/local/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/vanilla.so'
+	no file '/lib/vanilla.so'
+	no file '/usr/local/nginx_x/lualib/vanilla.so'
+	no file './vanilla.so'
+	no file '/usr/local/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/nginx_x/luajit/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:20: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/18 18:11:12 [error] 3882#0: *6 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:20: module 'vanilla.v.application' not found:
+	no field package.preload['vanilla.v.application']
+	no file './vanilla/v/application.lua'
+	no file './lib/vanilla/v/application.lua'
+	no file './vanilla/v/application.so'
+	no file './lib/vanilla/v/application.so'
+	no file '/Users/zhoujing/.luarocks/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/luarocks-2.2.2/lib/lua/5.1/vanilla/v/application.so'
+	no file './vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/vanilla/v/application.so'
+	no file '/lib/vanilla/v/application.so'
+	no file '/usr/local/nginx_x/lualib/vanilla/v/application.so'
+	no file './vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/nginx_x/luajit/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file './vanilla.so'
+	no file './lib/vanilla.so'
+	no file '/Users/zhoujing/.luarocks/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/luarocks-2.2.2/lib/lua/5.1/vanilla.so'
+	no file './vanilla.so'
+	no file '/usr/local/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/vanilla.so'
+	no file '/lib/vanilla.so'
+	no file '/usr/local/nginx_x/lualib/vanilla.so'
+	no file './vanilla.so'
+	no file '/usr/local/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/nginx_x/luajit/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:20: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/18 18:24:17 [error] 3882#0: *12 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/18 18:24:17 [error] 3882#0: *12 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/18 18:29:48 [error] 3882#0: *17 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/18 18:29:49 [error] 3882#0: *17 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/18 18:31:08 [error] 3882#0: *19 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/18 18:31:09 [error] 3882#0: *19 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/18 18:31:38 [error] 3882#0: *19 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/18 18:31:38 [error] 3882#0: *19 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/18 18:32:00 [error] 3882#0: *19 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/18 18:32:00 [error] 3882#0: *19 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/19 02:54:38 [error] 3882#0: *48 init_by_lua error: ./nginx/init.lua:7: attempt to index field 'searchers' (a nil value)
+stack traceback:
+	./nginx/init.lua:7: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 02:54:38 [error] 3882#0: *49 init_by_lua error: ./nginx/init.lua:7: attempt to index field 'searchers' (a nil value)
+stack traceback:
+	./nginx/init.lua:7: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/19 02:54:44 [error] 3882#0: *50 init_by_lua error: ./nginx/init.lua:7: attempt to index field 'searchers' (a nil value)
+stack traceback:
+	./nginx/init.lua:7: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 02:54:45 [error] 3882#0: *51 init_by_lua error: ./nginx/init.lua:7: attempt to index field 'searchers' (a nil value)
+stack traceback:
+	./nginx/init.lua:7: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/19 03:02:47 [error] 3882#0: *56 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:19: module 'config.application' not found:
+	no field package.preload['config.application']
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:19: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:02:47 [error] 3882#0: *59 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:19: module 'config.application' not found:
+	no field package.preload['config.application']
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:19: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/19 03:03:55 [error] 3882#0: *60 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:19: module 'config.application' not found:
+	no field package.preload['config.application']
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:19: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:03:56 [error] 3882#0: *61 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:19: module 'config.application' not found:
+	no field package.preload['config.application']
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:19: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/19 03:11:12 [error] 3882#0: *62 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:19: module 'config.application' not found:
+	no field package.preload['config.application']
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:19: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:11:12 [error] 3882#0: *63 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:19: module 'config.application' not found:
+	no field package.preload['config.application']
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:19: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:11:12 [error] 3882#0: *64 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:19: module 'config.application' not found:
+	no field package.preload['config.application']
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:19: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:11:12 [error] 3882#0: *65 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:19: module 'config.application' not found:
+	no field package.preload['config.application']
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:19: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:11:17 [error] 3882#0: *66 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:19: module 'config.application' not found:
+	no field package.preload['config.application']
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:19: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:11:47 [error] 3882#0: *67 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:19: module 'config.application' not found:
+	no field package.preload['config.application']
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:19: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:12:47 [error] 3882#0: *68 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:19: module 'config.application' not found:
+	no field package.preload['config.application']
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:19: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:13:44 [error] 3882#0: *69 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:19: module 'config.application' not found:
+	no field package.preload['config.application']
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:19: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:13:44 [error] 3882#0: *70 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:19: module 'config.application' not found:
+	no field package.preload['config.application']
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:19: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:13:58 [error] 3882#0: *71 init_by_lua error: ./nginx/init.lua:11: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:11: in function 'pp'
+	./nginx/init.lua:15: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:13:59 [error] 3882#0: *72 init_by_lua error: ./nginx/init.lua:11: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:11: in function 'pp'
+	./nginx/init.lua:15: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/19 03:15:38 [error] 3882#0: *73 init_by_lua error: ./nginx/init.lua:11: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:11: in function 'pp'
+	./nginx/init.lua:15: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:15:39 [error] 3882#0: *74 init_by_lua error: ./nginx/init.lua:11: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:11: in function 'pp'
+	./nginx/init.lua:15: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/19 03:16:01 [error] 3882#0: *75 init_by_lua error: ./nginx/init.lua:16: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:16: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:16:01 [error] 3882#0: *76 init_by_lua error: ./nginx/init.lua:16: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:16: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/19 03:16:02 [error] 3882#0: *77 init_by_lua error: ./nginx/init.lua:16: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:16: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:16:02 [error] 3882#0: *78 init_by_lua error: ./nginx/init.lua:16: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:16: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/19 03:16:13 [error] 3882#0: *79 init_by_lua error: ./nginx/init.lua:16: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:16: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:16:13 [error] 3882#0: *80 init_by_lua error: ./nginx/init.lua:16: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:16: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/19 03:16:23 [error] 3882#0: *81 init_by_lua error: ./nginx/init.lua:16: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:16: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:16:24 [error] 3882#0: *82 init_by_lua error: ./nginx/init.lua:16: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:16: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/19 03:16:35 [error] 3882#0: *83 init_by_lua error: ./nginx/init.lua:17: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:17: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:16:36 [error] 3882#0: *84 init_by_lua error: ./nginx/init.lua:17: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:17: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/19 03:16:36 [error] 3882#0: *85 init_by_lua error: ./nginx/init.lua:17: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:17: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:16:37 [error] 3882#0: *86 init_by_lua error: ./nginx/init.lua:17: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:17: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/19 03:16:47 [error] 3882#0: *87 init_by_lua error: ./nginx/init.lua:18: no request object found
+stack traceback:
+	[C]: in function 'eof'
+	./nginx/init.lua:18: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:16:47 [error] 3882#0: *88 init_by_lua error: ./nginx/init.lua:18: no request object found
+stack traceback:
+	[C]: in function 'eof'
+	./nginx/init.lua:18: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/19 03:18:04 [error] 43971#0: *95 init_by_lua error: ./nginx/init.lua:4: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:4: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 03:18:04 [error] 43971#0: *96 init_by_lua error: ./nginx/init.lua:4: no request object found
+stack traceback:
+	[C]: in function 'say'
+	./nginx/init.lua:4: in main chunk
+	[C]: in function 'require'
+	init_by_lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
+2015/09/19 12:09:00 [alert] 3883#0: *150 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 0.0.0.0:7200
+2015/09/19 16:54:54 [error] 44007#0: *198 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:20: module 'vanilla.v.application' not found:
+	no field package.preload['vanilla.v.application']
+	no file './vanilla/v/application.lua'
+	no file './application/models/vanilla/v/application.lua'
+	no file './vanilla/v/application.so'
+	no file './lib/vanilla/v/application.so'
+	no file '/Users/zhoujing/.luarocks/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/luarocks-2.2.2/lib/lua/5.1/vanilla/v/application.so'
+	no file './vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/vanilla/v/application.so'
+	no file '/lib/vanilla/v/application.so'
+	no file '/usr/local/nginx_x/lualib/vanilla/v/application.so'
+	no file './vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/nginx_x/luajit/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file './vanilla.so'
+	no file './lib/vanilla.so'
+	no file '/Users/zhoujing/.luarocks/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/luarocks-2.2.2/lib/lua/5.1/vanilla.so'
+	no file './vanilla.so'
+	no file '/usr/local/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/vanilla.so'
+	no file '/lib/vanilla.so'
+	no file '/usr/local/nginx_x/lualib/vanilla.so'
+	no file './vanilla.so'
+	no file '/usr/local/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/nginx_x/luajit/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:20: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7200"
+2015/09/19 16:54:54 [error] 44007#0: *200 lua entry thread aborted: runtime error: /Users/zj-git/bluebird/./pub/index.lua:20: module 'vanilla.v.application' not found:
+	no field package.preload['vanilla.v.application']
+	no file './vanilla/v/application.lua'
+	no file './application/models/vanilla/v/application.lua'
+	no file './vanilla/v/application.so'
+	no file './lib/vanilla/v/application.so'
+	no file '/Users/zhoujing/.luarocks/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/luarocks-2.2.2/lib/lua/5.1/vanilla/v/application.so'
+	no file './vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/vanilla/v/application.so'
+	no file '/lib/vanilla/v/application.so'
+	no file '/usr/local/nginx_x/lualib/vanilla/v/application.so'
+	no file './vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/nginx_x/luajit/lib/lua/5.1/vanilla/v/application.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file './vanilla.so'
+	no file './lib/vanilla.so'
+	no file '/Users/zhoujing/.luarocks/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/luarocks-2.2.2/lib/lua/5.1/vanilla.so'
+	no file './vanilla.so'
+	no file '/usr/local/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/vanilla.so'
+	no file '/lib/vanilla.so'
+	no file '/usr/local/nginx_x/lualib/vanilla.so'
+	no file './vanilla.so'
+	no file '/usr/local/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/nginx_x/luajit/lib/lua/5.1/vanilla.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/zj-git/bluebird/./pub/index.lua:20: in function </Users/zj-git/bluebird/./pub/index.lua:1>, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7200", referrer: "http://localhost:7200/"
