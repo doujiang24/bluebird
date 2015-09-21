@@ -1,4 +1,5 @@
-require 'spec.spec_helper'
+-- require 'spec.spec_helper'
+require 'busted.runner'()
 
 describe("PagesController", function()
 

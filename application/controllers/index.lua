@@ -11,6 +11,7 @@ function IndexController:index()
 	-- end
 	-- pp(package.preload)
 	-- pp(package.loaders)
+	pp(ngx.zhou)
     local view = self:getView()
     local p = {}
     p['vanilla'] = 'Welcome To Vanilla...'

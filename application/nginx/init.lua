@@ -6,7 +6,7 @@
 --     -- local s = pps(...)
 --     ngx.say(s)
 -- end
-
+ngx.zhou = 'jing'
 -- local sgmatch = string.gmatch
 -- pp(type(sgmatch))
 -- ngx.say(type(sgmatch))
