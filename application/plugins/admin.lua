@@ -1,7 +1,12 @@
 local AdminPlugin = require('vanilla.v.plugin'):new()
 
 function AdminPlugin:routerStartup(request, response)
-	pp('-----------routerStartup---------------')
+	pp('<pre>')
+	if request.method == 'GET' then
+		pp('-----------' .. pps(request.headers) .. '----------')
+	else
+		pp(request.headers)
+	end
 end
 
 -- function AdminPlugin:routerShutdown(request, response)
