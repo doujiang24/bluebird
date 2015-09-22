@@ -13,8 +13,10 @@ function Bootstrap:initView()
 end
 
 function Bootstrap:initPlugin()
-	local admin_plugin = require('plugins.admin'):new()
-	self.dispatcher:registerPlugin(admin_plugin);
+    local admin_plugin = require('plugins.admin'):new()
+	local ok_plugin = require('plugins.ok'):new()
+    self.dispatcher:registerPlugin(admin_plugin);
+	self.dispatcher:registerPlugin(ok_plugin);
 end
 
 function Bootstrap:boot_list()
