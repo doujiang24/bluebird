@@ -12,16 +12,10 @@ end
 function Bootstrap:initView()
 end
 
-function Bootstrap:initPlugin()
-	local admin_plugin = require('plugins.admin'):new(self.dispatcher:getRequest(),self.dispatcher:getResponse())
-	self.dispatcher:registerPlugin(admin_plugin);
-end
-
 function Bootstrap:boot_list()
     return {
         Bootstrap.initErrorHandle,
         Bootstrap.initRoute,
-        Bootstrap.initPlugin,
         Bootstrap.initView
     }
 end
