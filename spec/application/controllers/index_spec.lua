@@ -16,7 +16,6 @@ describe("IndexController", function()
   <h1><a href = 'https://github.com/idevz/vanilla'>Welcome To Vanilla...</a></h1><h5>Power by Openresty</h5>
 </body>
 </html>
-
 ]], response.body_raw)
         end)
     end)

@@ -23,7 +23,7 @@ function Bootstrap:boot_list()
     return {
         Bootstrap.initErrorHandle,
         Bootstrap.initRoute,
-        Bootstrap.initPlugin,
+        -- Bootstrap.initPlugin,
         Bootstrap.initView
     }
 end
