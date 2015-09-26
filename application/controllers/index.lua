@@ -3,7 +3,7 @@ local service = require 'models.service.user'
 local dispatcher = require 'vanilla.v.dispatcher'
 local IndexController = {}
 
-function IndexController:index()
+function IndexController:index_http()
     local ck = require "resty.cookie"
     local cookie, err = ck:new()
     if not cookie then
@@ -23,7 +23,7 @@ function IndexController:index()
     pp(fields)
 end
 
-function IndexController:index_base_response()
+function IndexController:index()
 	-- local sgmatch = ngx.re.gmatch or string.gmatch
 	-- ppz(package.config)
 	-- pp(package.loaders)
@@ -34,7 +34,7 @@ function IndexController:index_base_response()
 	-- pp(package.preload)
     -- pp('<pre/>')
 	-- pp(package.loaders)
-    -- pp(ngx)
+    -- pp(ngx.status)
     local view = self:getView()
     local resp = self:getResponse()
     -- resp:setHeader('Content-type', 'application/json')
@@ -46,6 +46,7 @@ function IndexController:index_base_response()
     -- return false
     -- self:redirect('sina.cn')
     -- pp(p)
+    -- view:caching(false)
     view:assign(p)
     return view:display()
 end
