@@ -37,8 +37,8 @@ function IndexController:index()
     -- pp(ngx.status)
     local view = self:getView()
     local resp = self:getResponse()
-    resp:appendBody('===================')
-    resp:prependBody('-------------')
+    -- resp:appendBody('===================')
+    -- resp:prependBody('-------------')
     -- resp:setHeader('Content-type', 'application/json')
     local p = {}
     p['vanilla'] = 'Welcome To Vanilla...'
