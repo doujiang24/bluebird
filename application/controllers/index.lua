@@ -24,6 +24,7 @@ function IndexController:index_http()
 end
 
 function IndexController:index()
+    
 	-- local sgmatch = ngx.re.gmatch or string.gmatch
 	-- ppz(package.config)
 	-- pp(package.loaders)
