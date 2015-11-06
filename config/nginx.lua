@@ -2,6 +2,7 @@ local ngx_conf = {}
 
 ngx_conf.common = {
     INIT_BY_LUA = 'nginx.init',
+    ACCESS_BY_LUA = 'nginx.acc',
     CONTENT_BY_LUA_FILE = './pub/index.lua'
 }
 
