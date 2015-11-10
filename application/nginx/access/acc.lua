@@ -7,7 +7,7 @@
 --     ngx.say(s)
 -- end
 ngx.zhou = 'jing'
-ngx.say(ngx.zhou)
+-- ngx.say(ngx.zhou)
 ngx.eof()
 
 -- local sgmatch = string.gmatch
