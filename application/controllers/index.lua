@@ -36,12 +36,17 @@ function IndexController:index()
 	-- pp(package.loaders)
     -- pp(ngx.status)
     local view = self:getView()
+    local req = self:getRequest()
     local resp = self:getResponse()
+    local z = req:getParam('z')
+    if z == nil then
+        z = 'xxxx'
+    end
     -- resp:appendBody('===================')
     -- resp:prependBody('-------------')
     -- resp:setHeader('Content-type', 'application/json')
     local p = {}
-    p['vanilla'] = 'Welcome To Vanilla...'
+    p['vanilla'] = 'Welcome To Vanilla...' .. z
     p['zhoujing'] = 'Power by Openresty'
     -- pp(ngx.dispatcher:getRouter())
     -- return json.encode(p)
