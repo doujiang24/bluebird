@@ -1,31 +1,62 @@
-local Bootstrap = require('vanilla.v.bootstrap'):new(dispatcher)
+-- function pp( ... )
+--     local helpers = require 'vanilla.v.libs.utils'
+--     -- helpers.pp(...)
+--     -- helpers.pp_to_file(..., '/Users/zj-git/vanilla/pretty/zj')
+--     local s = helpers.pps(...)
+--     -- local s = pps(...)
+--     ngx.say(s)
+-- end
+ngx.zhou = 'kkk'
+-- ngx.say(ngx.zhou)
+-- ngx.eof()
 
-function Bootstrap:initErrorHandle()
-    self.dispatcher:setErrorHandler({controller = 'error', action = 'error'})
-end
+-- local sgmatch = string.gmatch
+-- pp(type(sgmatch))
+-- ngx.say(type(sgmatch))
 
-function Bootstrap:initRoute()
-    local router = require('vanilla.v.routes.simple'):new(self.dispatcher:getRequest())
-    self.dispatcher.router = router
-end
+-- package.loaders[2] = function( name )
+--         -- print("try to load", name )
+--         ngx.say(name)
+--         -- ngx.eof()
+--     end
+--     package.loaders[3] = nil
+--     package.loaders[4] = nil
 
-function Bootstrap:initView()
-end
 
-function Bootstrap:initPlugin()
-    local admin_plugin = require('plugins.admin'):new()
-	local ok_plugin = require('plugins.ok'):new()
-    self.dispatcher:registerPlugin(admin_plugin);
-	self.dispatcher:registerPlugin(ok_plugin);
-end
 
-function Bootstrap:boot_list()
-    return {
-        Bootstrap.initErrorHandle,
-        Bootstrap.initRoute,
-        -- Bootstrap.initPlugin,
-        Bootstrap.initView
-    }
-end
+--     -- perf
+-- local error = error
+-- local sgmatch = string.gmatch
 
-return Bootstrap
+-- -- init Simple and set routes
+-- local Simple = {}
+
+-- function Simple:new(request)
+--     local instance = {
+--         route_name = 'Simple',
+--     	request = request
+--     }
+
+--     setmetatable(instance, {__index = self})
+--     return instance
+-- end
+
+-- function Simple:match()
+--     local uri = self.request.uri
+--     local match = {}
+--     local tmp = 1
+--     if uri == '/' then
+--         return 'index', 'index'
+--     end
+--     for v in sgmatch(uri , '/([A-Za-z0-9_]+)') do
+--         match[tmp] = v
+--         tmp = tmp +1
+--     end
+--     if #match == 1 then
+--         return match[1], 'index'
+--     else
+--         return table.concat(match, '.', 1, #match - 1), match[#match]
+--     end
+-- end
+
+-- return Simple

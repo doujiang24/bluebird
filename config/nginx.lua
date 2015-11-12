@@ -4,7 +4,7 @@ ngx_conf.common = {
     INIT_BY_LUA = 'nginx.init',
     -- ACCESS_BY_LUA = 'nginx.access',
     ACCESS_BY_LUA = 'pub.index',
-    ACCESS_BY_LUA_FILE =  './pub/index.lua'
+    -- ACCESS_BY_LUA_FILE =  './pub/index.lua'
     -- CONTENT_BY_LUA_FILE = './pub/index.lua'
 }
 

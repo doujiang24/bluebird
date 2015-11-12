@@ -2,7 +2,6 @@
 -- local app = require('vanilla.v.application'):new(config)
 -- ngx.log(ngx.ERR, '===================>' .. ngx.zhou)
 
-local a = {}
 
     function pps( ... )
         local helpers = require 'vanilla.v.libs.utils'
@@ -23,12 +22,18 @@ local a = {}
         ngx.log(ngx.ERR, "===zjdebug" .. msg .. "===")
     end
 
+local a = {}
 
+-- function a:run(ngx)
+-- 	local re = ngx.req.get_uri_args()
+-- 	pp(re.z)
+-- 	pp(re)
+-- end
 
 function a:run(ngx)
-	local re = ngx.req.get_uri_args()
-	pp(re.z)
-	pp(re)
+	local config = require('config.application')
+	local app = require('vanilla.v.application'):new(config)
+	app:bootstrap():run()
 end
 
 return a
