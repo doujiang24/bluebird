@@ -1,9 +1,11 @@
 local ngx_conf = {}
 
 ngx_conf.common = {
-    INIT_BY_LUA = 'nginx.init',
+    -- INIT_BY_LUA = 'nginx.init',
+    REWRITE_BY_LUA = 'pub.index',
+    CONTENT_BY_LUA = 'pub.index',
     -- ACCESS_BY_LUA = 'nginx.access',
-    ACCESS_BY_LUA = 'pub.index',
+    -- ACCESS_BY_LUA = 'pub.index',
     -- ACCESS_BY_LUA_FILE =  './pub/index.lua'
     -- CONTENT_BY_LUA_FILE = './pub/index.lua'
 }
