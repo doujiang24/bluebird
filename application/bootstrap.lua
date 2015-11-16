@@ -1,5 +1,9 @@
 local Bootstrap = require('vanilla.v.bootstrap'):new(dispatcher)
 
+function Bootstrap:initWaf()
+    require 'vanilla.sys.waf.acc'
+end
+
 function Bootstrap:initErrorHandle()
     self.dispatcher:setErrorHandler({controller = 'error', action = 'error'})
 end
@@ -24,6 +28,7 @@ function Bootstrap:boot_list()
         Bootstrap.initErrorHandle,
         Bootstrap.initRoute,
         -- Bootstrap.initPlugin,
+        Bootstrap.initWaf,
         Bootstrap.initView
     }
 end
