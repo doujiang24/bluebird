@@ -1,12 +1,5 @@
--- function pp( ... )
---     local helpers = require 'vanilla.v.libs.utils'
---     -- helpers.pp(...)
---     -- helpers.pp_to_file(..., '/Users/zj-git/vanilla/pretty/zj')
---     local s = helpers.pps(...)
---     -- local s = pps(...)
---     ngx.say(s)
--- end
-ngx.zhou = 'jing'
+local conf = require 'nginx.init.config'
+ngx.zhou = conf
 
 -- local sgmatch = string.gmatch
 -- pp(type(sgmatch))
